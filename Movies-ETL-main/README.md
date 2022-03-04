@@ -11,10 +11,7 @@ Given source data in the form of a .JSON file from Wikipedia and two large .CSV 
 
 ### Deliverable 2: [ETL_clean_wiki_movies.ipynb](https://github.com/JosieBoyer/Movies_ETL/blob/main/Movies-ETL-main/ETL_clean_wiki_movies.ipynb)
 
-- Function "extract_transform_load" appended:
-    - TV shows removed with list comprehension targeting "No. of episodes".
-    - IMDb ID numbers extracted, and duplicate values dropped.
-    - Nested function "parse_dollars" created to extract box office and budget values.
+- Function "extract_transform_load" appended.
 - RegEx created to recognize and extract release dates and running time of movies.
 
 ### Deliverable 3: [ETL_clean_kaggle_data.ipynb](https://github.com/JosieBoyer/Movies_ETL/blob/main/Movies-ETL-main/ETL_clean_kaggle_data.ipynb)
